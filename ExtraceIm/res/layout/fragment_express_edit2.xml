@@ -1,0 +1,241 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="extrace.ui.domain.ExpressEditActivity$ExpressEditFragment1" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:paddingBottom="8dip"
+            android:paddingLeft="5dip"
+            android:paddingTop="8dip"
+            android:layout_height="60dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="6dp"
+                android:gravity="center"
+                android:text="类型："
+                android:textColor="@color/black"
+                android:textSize="16dip" />
+
+            <EditText
+                android:id="@+id/expressType"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@null"
+                android:textColor="@color/black"
+                android:textSize="20dip" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/lightgray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:paddingBottom="8dip"
+            android:paddingLeft="5dip"
+            android:paddingTop="8dip"
+            android:layout_height="60dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="6dp"
+                android:gravity="center"
+                android:text="重量(g):"
+                android:textColor="@color/black"
+                android:textSize="16dip" />
+
+            <EditText
+                android:id="@+id/expressWeight"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:background="@null"
+                android:textSize="20dip" />
+          
+        </LinearLayout>
+
+       
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/lightgray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:paddingBottom="8dip"
+            android:paddingLeft="5dip"
+            android:paddingTop="8dip"
+            android:layout_height="60dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="6dp"
+                android:gravity="center"
+                android:text="运费(元):"
+                android:textColor="@color/black"
+                android:textSize="16dip" />
+
+            <EditText
+                android:id="@+id/expressTranFee"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@null"
+                android:textColor="@color/black"
+                android:textSize="20dip" />
+
+        </LinearLayout>
+
+        
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/lightgray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:paddingBottom="8dip"
+            android:paddingLeft="5dip"
+            android:paddingTop="8dip"
+            android:layout_height="60dp" >
+        
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="6dp"
+                android:gravity="center"
+                android:text="打包费(元):"
+                android:textColor="@color/black"
+                android:textSize="16dip" />
+
+            <EditText
+                android:id="@+id/expressPackageFee"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@null"
+                android:textColor="@color/black"
+                android:textSize="20dip" />
+
+        </LinearLayout>
+            
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/lightgray" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:paddingBottom="8dip"
+            android:paddingLeft="5dip"
+            android:paddingTop="8dip"
+            android:layout_height="60dp" >
+        
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="6dp"
+                android:gravity="center"
+                android:text="保险费(元):"
+                android:textColor="@color/black"
+                android:textSize="16dip" />
+
+            <EditText
+                android:id="@+id/expressInsuFee"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@null"
+                android:textColor="@color/black"
+                android:textSize="20dip" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/lightgray" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="8dip"
+            android:paddingLeft="5dip"
+            android:paddingTop="8dip" >
+        
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="6dp"
+                android:gravity="center"
+                android:text="运单照片:"
+                android:textColor="@color/black"
+                android:textSize="16dip" />
+             <Button
+                android:id="@+id/expressAccPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                 android:text="添加本地照片"
+                android:textColor="@color/black"
+                android:textSize="16dip" />
+             
+			
+         
+
+        </LinearLayout>
+            
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/lightgray" />
+     
+	
+    </LinearLayout>
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="8dip"
+        android:paddingLeft="5dip"
+        android:paddingTop="8dip" >
+    </LinearLayout>
+
+</LinearLayout>
